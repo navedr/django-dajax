@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup(
-    name='django-dajax',
-    version='0.9.2-fixfor1.7',
-    author='Jorge Bastida',
-    author_email='me@jorgebastida.com',
+    name='django-dajax3',
+    version='0.9.3',
+    author='Naved Rangwala',
+    author_email='naved@ecarone.com',
     description=('Easy to use library to create asynchronous presentation '
                  'logic with django and dajaxice'),
     url='http://dajaxproject.com',
@@ -17,7 +17,7 @@ setup(
                       'supports up to four of the most popular JS frameworks: '
                       'jQuery, Prototype, Dojo and mootols.'),
     install_requires=[
-        'django-dajaxice>=0.5'
+        'django-dajaxice3>=0.63'
     ],
     classifiers=['Development Status :: 4 - Beta',
                 'Environment :: Web Environment',
